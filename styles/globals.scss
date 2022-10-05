@@ -1,0 +1,55 @@
+@import "./modules/all";
+@import "./base/reset";
+
+//@import "partials/disclaimer";
+
+/* ===========================================================
+	GENERAL
+============================================================*/
+
+.page_margins {
+  padding-left: 17.5px;
+  padding-right: 17.5px;
+
+  @include breakpoint(md) {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+
+  @include breakpoint(lg) {
+    padding-left: 0px;
+    padding-right: 70px;
+  }
+}
+
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    @media (prefers-color-scheme: dark) {
+      html {
+        color-scheme: dark;
+      }
+      body {
+        color: white;
+        background: black;
+      }
+    }
+    
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+}
+
+
