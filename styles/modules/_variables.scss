@@ -1,0 +1,42 @@
+$base_font_family: "proxima-nova", sans-serif;
+$font_weight_light: 200;
+$font_weight_book: 300;
+$font_weight_medium: 400;
+$font_weight_bold: 500;
+
+$base_font_size: 0.9em;
+$base_line_height: 1.5;
+
+$cubic-bezier: cubic-bezier(0.075, 0.82, 0.165, 1);
+$page_margins: 60px;
+
+
+$teal: #00828A;
+$button: #7EC093;
+$gray: #8195a2;
+$beige: #FDF6EE;
+$medium_blue: #39474F;
+
+
+//Alerts:
+$error: #a31f34;
+$success: #009d47;
+
+
+$cat1: #583a71;
+$cat2: #323f75;
+$cat3: #bb3446;
+$cat4: #e3854a;
+$cat5: #e2ad50;
+$cat6: #4e8a89;
+$cat7: #51893f;
+$cat99: #25678e;
+
+
+// Extra small screen / phone
+//** Deprecated `$screen-xs` as of v3.0.1
+$screen-xs: 480px !default;
+$screen-sm: 768px !default;
+$screen-md: 992px !default;
+$screen-lg: 1200px !default;
+$screen-xlg: 1400px !default;
