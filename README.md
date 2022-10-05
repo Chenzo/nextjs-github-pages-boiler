@@ -1,3 +1,21 @@
+
+NextJS | Github Pages Boilerplate
+
+
+
+
+
+
+
+
+Some info here: https://dev.to/github/how-to-host-a-static-nextjs-site-on-github-pages-4pe0
+
+
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
